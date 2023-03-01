@@ -1,0 +1,9 @@
+D:\_TRABAJO_FINAL_LPV\_PROYECTO_FINAL_LPV\_Tools\bin\Debug\_Tools.dll
+D:\_TRABAJO_FINAL_LPV\_PROYECTO_FINAL_LPV\_Tools\bin\Debug\_Tools.pdb
+D:\_TRABAJO_FINAL_LPV\_PROYECTO_FINAL_LPV\_Tools\obj\Debug\ResolveAssemblyReference.cache
+D:\_TRABAJO_FINAL_LPV\_PROYECTO_FINAL_LPV\_Tools\obj\Debug\_Tools._Mi_mensaje.resources
+D:\_TRABAJO_FINAL_LPV\_PROYECTO_FINAL_LPV\_Tools\obj\Debug\_Tools._Mi_mensaje_box.resources
+D:\_TRABAJO_FINAL_LPV\_PROYECTO_FINAL_LPV\_Tools\obj\Debug\GenerateResource.read.1.tlog
+D:\_TRABAJO_FINAL_LPV\_PROYECTO_FINAL_LPV\_Tools\obj\Debug\GenerateResource.write.1.tlog
+D:\_TRABAJO_FINAL_LPV\_PROYECTO_FINAL_LPV\_Tools\obj\Debug\_Tools.dll
+D:\_TRABAJO_FINAL_LPV\_PROYECTO_FINAL_LPV\_Tools\obj\Debug\_Tools.pdb

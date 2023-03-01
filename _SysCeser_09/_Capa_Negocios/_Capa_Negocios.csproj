@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{86C3DC05-52A4-4774-9AB9-ED8F2D3880B8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>_Capa_Negocios</RootNamespace>
+    <AssemblyName>_Capa_Negocios</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MVASQUEZ--CONTROLES">
+      <HintPath>..\..\..\..\..\..\EL_SEMINARIO\SM--III\S--VI\MVASQUEZ--CONTROLES\MVASQUEZ--CONTROLES\bin\Debug\MVASQUEZ--CONTROLES.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="_Capa_data">
+      <HintPath>..\_Capa_data\bin\Debug\_Capa_data.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="_Cliente.cs" />
+    <Compile Include="_Detalle_Venta.cs" />
+    <Compile Include="_Igv.cs" />
+    <Compile Include="_Interfaces_polimorfismo\_Area.cs" />
+    <Compile Include="_Cargo.cs" />
+    <Compile Include="_Estado_equipo.cs" />
+    <Compile Include="_Formularios\_Configuracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_Formularios\_Configuracion.Designer.cs">
+      <DependentUpon>_Configuracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Interfaces_polimorfismo\_Fila_general.cs" />
+    <Compile Include="_Interfaces_polimorfismo\_Filtrar_general.cs" />
+    <Compile Include="_Interfaces_polimorfismo\_Listar_general.cs" />
+    <Compile Include="_Interfaces_polimorfismo\_Listar_personas.cs" />
+    <Compile Include="_Interfaces_polimorfismo\_Obtener_objeto_clase.cs" />
+    <Compile Include="_Formularios\_Mi_mensaje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_Formularios\_Mi_mensaje.Designer.cs">
+      <DependentUpon>_Mi_mensaje.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Formularios\_Mi_mensaje_box.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_Formularios\_Mi_mensaje_box.Designer.cs">
+      <DependentUpon>_Mi_mensaje_box.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Interfaces_polimorfismo\_Obtener_persona.cs" />
+    <Compile Include="_Marca.cs" />
+    <Compile Include="_Orden.cs" />
+    <Compile Include="_Pago_referencial.cs" />
+    <Compile Include="_Persona.cs" />
+    <Compile Include="_Reparacion.cs" />
+    <Compile Include="_Repuesto.cs" />
+    <Compile Include="_Servicio.cs" />
+    <Compile Include="_Sistema.cs" />
+    <Compile Include="_Empleado.cs" />
+    <Compile Include="_Tipo_equipo.cs" />
+    <Compile Include="_Tipo_garantia.cs" />
+    <Compile Include="_Tipo_repuesto.cs" />
+    <Compile Include="_toools.cs" />
+    <Compile Include="_Venta.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Formularios\_Configuracion.resx">
+      <DependentUpon>_Configuracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Formularios\_Mi_mensaje.resx">
+      <DependentUpon>_Mi_mensaje.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Formularios\_Mi_mensaje_box.resx">
+      <DependentUpon>_Mi_mensaje_box.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancelar_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seleccionar_16x16.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

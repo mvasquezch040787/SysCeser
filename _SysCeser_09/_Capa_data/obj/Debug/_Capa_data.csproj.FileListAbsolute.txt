@@ -1,0 +1,11 @@
+D:\ggggg\XXXXXX\_CeSys\_SysCeser\_Capa_data\bin\Debug\_Capa_data.dll.config
+D:\ggggg\XXXXXX\_CeSys\_SysCeser\_Capa_data\bin\Debug\_Capa_data.dll
+D:\ggggg\XXXXXX\_CeSys\_SysCeser\_Capa_data\bin\Debug\_Capa_data.pdb
+D:\ggggg\XXXXXX\_CeSys\_SysCeser\_Capa_data\obj\Debug\ResolveAssemblyReference.cache
+D:\ggggg\XXXXXX\_CeSys\_SysCeser\_Capa_data\obj\Debug\_Capa_data.dll
+D:\ggggg\XXXXXX\_CeSys\_SysCeser\_Capa_data\obj\Debug\_Capa_data.pdb
+D:\_UAP\_CURSOS\_PROYECTOS_INVESTIGACION_II\_SysCeser_06\_Capa_data\bin\Debug\_Capa_data.dll.config
+D:\_UAP\_CURSOS\_PROYECTOS_INVESTIGACION_II\_SysCeser_06\_Capa_data\bin\Debug\_Capa_data.dll
+D:\_UAP\_CURSOS\_PROYECTOS_INVESTIGACION_II\_SysCeser_06\_Capa_data\bin\Debug\_Capa_data.pdb
+D:\_UAP\_CURSOS\_PROYECTOS_INVESTIGACION_II\_SysCeser_06\_Capa_data\obj\Debug\_Capa_data.dll
+D:\_UAP\_CURSOS\_PROYECTOS_INVESTIGACION_II\_SysCeser_06\_Capa_data\obj\Debug\_Capa_data.pdb
